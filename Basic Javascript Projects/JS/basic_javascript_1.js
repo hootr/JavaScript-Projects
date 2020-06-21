@@ -17,7 +17,7 @@ document.write(blue, red, green, purple); ////       End of Variable colors
 document.write(5+10);
 
 function My_first_function(){ // Designating a function 
-    var str = "the text should be green"; // what the text will say when function is accomplished
+    var str = "the text should be pink"; // what the text will say when function is accomplished
     var result = str.fontcolor("pink"); // color of the text that will be displayed
     document.getElementById("Pink") .innerHTML = result; // where to get the ID on the page
 }

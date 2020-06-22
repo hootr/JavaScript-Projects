@@ -41,4 +41,5 @@ function not() {
     document.getElementById("not") .innerHTML = !(40 > 30);
 }
 
+document.write("5" + 15);
 

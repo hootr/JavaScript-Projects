@@ -18,3 +18,13 @@ function vote() {
     can_vote = (age < 18) ? "You are not old enough" : "You are old enough";
     document.getElementById("old") .innerHTML = can_vote + "to Vote";
 }
+
+function nested_function() {
+    document.getElementById("nested") .innerHTML = count();
+    function count() {
+        var starting_point = 10;
+        function plus_one() {starting_point += 1;}
+        plus_one();
+        return starting_point;
+    }
+}

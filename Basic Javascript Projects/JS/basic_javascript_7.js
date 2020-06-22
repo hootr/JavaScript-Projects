@@ -20,19 +20,19 @@ function drink() {
     document.getElementById("buy") .innerHTML = consume
 }
 
-function Time_function() {
-    var Time = new Date() .getHours();
-    var replay;
-    if (Time < 12 == Time > 0) {
-        replay = "It is Morning time!";
+function time_function() {
+    var time = new Date().getHours();
+    var reply;
+    if (time < 12 == time > 0) {
+        reply = "It is morning time!";
     }
-    else if (Time > 12 == Time < 18) {
-        replay = "It is the Afternoon." ;
+    else if (time > 12 == time < 18) {
+        reply = "it is the afternoon";
     }
     else {
-        replay= "it is evening time";
+        reply = "it is evening time";
     }
-    document.getElementById("Time_of_day") .innerHTML = replay;
+    document.getElementById("time_of_day").innerHTML = reply;
 }
 
 var X = 30

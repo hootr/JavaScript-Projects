@@ -1,0 +1,40 @@
+form  {
+  width: 250px;
+  height: 200px;
+  background-color: darkcyan;
+  border: 2px solid darkblue;
+  padding-top: 5px;
+  padding-right: 5px;
+  padding-left: 5px;
+  padding-bottom: 5px ;
+  margin-left: 350px;
+  text-align: center;
+  
+  
+  
+}
+
+input {
+  width: 75%;
+  text-align: center;
+}
+
+textarea { 
+  resize: vertical;
+  max-height: 100px;
+  text-align: center;
+  
+}
+
+input, textarea {
+  outline: none;
+  border: 1px solid rgb(9, 42, 151)
+}
+
+body {
+  background-color: darkgray;
+}
+
+h2 {
+ text-align: center
+}

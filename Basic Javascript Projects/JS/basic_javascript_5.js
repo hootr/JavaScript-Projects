@@ -1,4 +1,4 @@
-document.write(typeof 8)
+document.write(typeof 8 + '<br>')
 
 function my_function() {
     document.getElementById("test") .innerHTML = isNaN('1442');

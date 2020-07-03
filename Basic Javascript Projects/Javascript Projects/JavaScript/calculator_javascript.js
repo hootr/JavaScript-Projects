@@ -89,7 +89,7 @@ function Update_Display() {
 
 Update_Display() ;
 // this section monitors button clicks
-const keys = document.querySelector('.calculator_keys');
+const keys = document.querySelector('.calculator-keys');
 keys.addEventListener('click', (event) => {
     // the target variable is an object that represents the element
     //that was clicked

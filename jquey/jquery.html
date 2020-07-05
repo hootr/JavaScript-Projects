@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+    </head>
+
+    <script>
+        $(document).ready(function() {
+            $("html").append (
+                "<body>\
+                    <div id='container'>\
+                        <div id='inner'>\
+                            <h1>Basic jQuery</h1>\
+                            <p id='1'> Paragraph 1 </p>\
+                            <p id='2'> Paragraph 2 </p>\
+                            <p id='3'> Click me to hide Fast </p>\
+                            <p id='slow'> Click me to hide slow</p>\
+                            <p id='write'>Click Here to be the last Paragraph standing!!</p>\
+                        </div>\
+                    </div>\
+                </body>"
+                    
+            );
+            $("#2").css({"color" : "blue"});
+            // will hide the Heading fast
+            $("#3").click(function()  {
+                $('h1').hide("fast");
+        // will hide sentence slowly 
+            $("#slow").click(function(){
+                $('#slow').hide("slow");
+            });
+        });
+        // clicking the text will put a message in the console.
+        $( "#write" ).click(function() {
+    document.write( "Now I am the only Paragraph that remains!!" );
+});
+
+ 
+ 
+        });
+    </script>
+</html>
